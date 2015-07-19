@@ -36,7 +36,7 @@ grunt serve[:<mode>] [--port=<port>] [--hostname=<hostname>] [--watch] [--libs=<
 
 Argument | Description                                                                                       | Default
 -------- | ------------------------------------------------------------------------------------------------- | -------------
-libs     | Library name(s) to build (comma-separated)                                                        | All libraries
+libs     | Library name(s) to lint (comma-separated)                                                         | All libraries
 path     | Path(s) that should be linted (relative to root). If specified, the `libs` option will be ignored | none
 
 Runs static code checks using [ESLint](http://eslint.org).  
